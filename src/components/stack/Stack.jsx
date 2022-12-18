@@ -2,7 +2,7 @@ import React from "react";
 import "./stack.css";
 
 const Stack = () => {
-  return <div>Stack</div>;
+  return <section id="stack">Stack</section>;
 };
 
 export default Stack;
