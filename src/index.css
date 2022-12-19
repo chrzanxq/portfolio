@@ -85,10 +85,10 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  /* background: var(--color-bg);  */
+  /*  background: var(--color-bg);   */
   color: var(--color-white);
   line-height: 1.7;
-  /* background-image: url("../src/assets/images/bg-texture.png");  */
+  /* background-image: url("../src/assets/images/bg-texture.png");   */
   background: linear-gradient(-45deg, #e1ad01, #1a851d, #3f826d, #3e363f);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
