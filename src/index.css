@@ -10,13 +10,28 @@
   text-decoration: none;
 }
 
-:root {
+/* :root {
   --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
-  --color-primary-variant: rgba (77, 181, 255, 0.4);
+  --color-primary-variant: #4db5ff66;
   --color-white: #fff;
-  --color-light: rgba (255, 255, 255, 0.6);
+  --color-light: #ffffff99;
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+} */
+
+:root {
+  --color-bg: #072608;
+  --color-bg-variant: #1e9822;
+  --color-primary: #3bc53f;
+  --color-primary-variant: #0f4c11;
+  --color-white: #fff;
+  --color-light: rgba #ffffff99;
 
   --transition: all 400ms ease;
 
@@ -24,6 +39,41 @@
   --container-width-md: 86%;
   --container-width-sm: 90%;
 }
+
+/*
+  #072608;
+  #1e9822
+  #3bc53f;
+  #1a851d;
+  
+
+  body {
+  font-family: "Poppins", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  background-image: url("../src/assets/images/bg-texture.png");
+}
+
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+*/
 
 html {
   scroll-behavior: smooth;
@@ -35,10 +85,33 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  /* background: var(--color-bg);  */
+  color: var(--color-white);
+  line-height: 1.7;
+  /* background-image: url("../src/assets/images/bg-texture.png");  */
+  background: linear-gradient(-45deg, #e1ad01, #1a851d, #3f826d, #3e363f);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+/* body {
+  font-family: "Poppins", sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
   background-image: url("../src/assets/images/bg-texture.png");
+} */
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* ************GENERAL STYLE************* */
@@ -82,7 +155,7 @@ section > h2 {
 
 a {
   color: var(--color-primary);
-  transiton: var(--transition);
+  transition: var(--transition);
 }
 
 a:hover {

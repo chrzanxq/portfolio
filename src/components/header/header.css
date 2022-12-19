@@ -43,10 +43,10 @@ header {
 
 /* ***************ME************ */
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
+  /* background: linear-gradient(var(--color-primary), transparent); */
   width: 22rem;
   height: 30rem;
-  position: relative;
+  position: absolute;
   left: calc(50% - 11rem);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
@@ -54,10 +54,12 @@ header {
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
-/* .avatar {
-  size-adjust: 100%;
-  width: 19rem;
-} */
+.avatar {
+  border-radius: 50%;
+  -moz-box-shadow: 0 0 5px #fff;
+  -webkit-box-shadow: 0 0 5px #fff;
+  box-shadow: 0px 0px 5px #fff;
+}
 
 /* ***************scroll down************ */
 
