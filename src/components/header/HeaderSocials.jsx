@@ -8,15 +8,15 @@ const HeaderSocials = () => {
     <div className="header_socials">
       <a
         href="https://www.linkedin.com/in/marcin-chrzanowski-9a6b4b247/"
-        target="_blank"
+        rel="noopener"
       >
         <BsLinkedin />
       </a>
-      <a href="https://github.com/chrzanxq" target="_blank">
+      <a href="https://github.com/chrzanxq" rel="noopener">
         {" "}
         <BsGithub />{" "}
       </a>
-      <a href="https://www.facebook.com/mooorswin" target="_blank">
+      <a href="https://www.facebook.com/mooorswin" rel="noopener">
         <BsFacebook />
       </a>
     </div>
