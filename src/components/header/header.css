@@ -2,17 +2,15 @@ header {
   height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
+  justify-content: center;
 }
 
-.header_container {
+.header__container {
   text-align: center;
   height: 100%;
   position: relative;
 }
 
-.container {
-  left: 15%;
-}
 /* ***************CTA************ */
 
 .cta {
@@ -24,7 +22,7 @@ header {
 
 /* ***************HEADER SOCIALS************ */
 
-.header_socials {
+.header__socials {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,7 +63,7 @@ header {
 
 .scroll_down {
   position: absolute;
-  right: 0.1rem;
+  right: -2.3rem;
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
@@ -80,6 +78,10 @@ header {
   .header {
     height: 68vh;
   }
+  .header__socials,
+  .scroll_down {
+    bottom: 50%;
+  }
 }
 
 /* ****************** MEDIA QUERIES (FOR SMALL DEVICES) ********** */
@@ -89,7 +91,7 @@ header {
     height: 100vh;
   }
 
-  .header_socials,
+  .header__socials,
   .scroll_down {
     display: none;
   }

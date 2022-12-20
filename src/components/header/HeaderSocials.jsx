@@ -5,7 +5,7 @@ import { BsGithub } from "react-icons/bs";
 
 const HeaderSocials = () => {
   return (
-    <div className="header_socials">
+    <div className="header__socials">
       <a
         href="https://www.linkedin.com/in/marcin-chrzanowski-9a6b4b247/"
         rel="noopener"

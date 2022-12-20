@@ -66,11 +66,19 @@ textarea {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+  form .btn {
+    margin: auto;
+    width: 100%;
+  }
 }
 /* ****************** MEDIA QUERIES (FOR SMALL DEVICES) ********** */
 
 @media screen and (max-width: 600px) {
   .container.contact__container {
     width: var(--container-width-sm);
+  }
+  form .btn {
+    margin: auto;
+    width: 100%;
   }
 }
