@@ -35,8 +35,9 @@ const About = () => {
             Hi! My name is Marcin and I'm an aspiring Front End React Developer
             based in Poland. Although i do not have professional experience yet,
             feel free to check out my personal projects to see if I am a good
-            fit for Your company. My current skills are listed in the Stack
-            section. Dont forget to check in on my linked profiles!
+            fit for Your company. My current skills are listed in my Curriculum,
+            and will be placed in Stack section. Dont forget to check in on my
+            linked profiles!
           </p>
           <a href="#contact" className="btn btn-primary">
             Contact Me!
